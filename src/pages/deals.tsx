@@ -1,7 +1,7 @@
 import { SITE_METADATA } from "@/constants/site";
 import { NextSeo } from "next-seo";
 
-export const DealsPage = () => {
+const DealsPage = () => {
   return (
     <>
       <NextSeo
@@ -43,3 +43,5 @@ export const DealsPage = () => {
     </>
   );
 };
+
+export default DealsPage;
